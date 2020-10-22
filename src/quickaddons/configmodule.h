@@ -613,6 +613,15 @@ Q_SIGNALS:
      */
     void defaultsIndicatorsVisibleChanged();
 
+    /**
+     * Emitted when the module is open and another application tries to load it.
+     * It can be used to update the module state with a new list of arguments.
+     * @param args The argument list passed when trying to reload the method
+     *
+     * @since 5.76
+     */
+    void argumentsUpdated(const QStringList &args);
+
 private:
     ConfigModulePrivate *const d;
 };
