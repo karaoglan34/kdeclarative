@@ -42,12 +42,12 @@ Kirigami.Page {
     rightPadding: leftPadding
     bottomPadding: footerParent.contentItem ? 0 : leftPadding
 
-    header: QtControls.Control {
+    header: QtControls.ToolBar {
         id: headerParent
         height: contentItem ? implicitHeight : 0
     }
 
-    footer: QtControls.Control {
+    footer: QtControls.ToolBar {
         id: footerParent
         height: contentItem ? implicitHeight : 0
     }

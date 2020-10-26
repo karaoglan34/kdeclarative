@@ -38,11 +38,8 @@ QtControls.ScrollView {
     }
 
     activeFocusOnTab: false
-    Kirigami.Theme.colorSet: Kirigami.Theme.View
-    Kirigami.Theme.inherit: false
+//     Kirigami.Theme.colorSet: Kirigami.Theme.View
+    //Kirigami.Theme.inherit: false
 
-    Component.onCompleted: scroll.background.visible = true;
-
-    
     QtControls.ScrollBar.horizontal.visible: false
 }
