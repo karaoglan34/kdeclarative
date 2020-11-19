@@ -40,3 +40,9 @@ if(BUILD_QCH)
         COMPONENT Devel
     )
 endif()
+
+ecm_qt_install_logging_categories(
+    EXPORT KDECLARATIVE
+    FILE kdeclarative.categories
+    DESTINATION ${KDE_INSTALL_LOGGINGCATEGORIESDIR}
+)

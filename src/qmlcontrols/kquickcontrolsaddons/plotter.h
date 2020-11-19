@@ -39,6 +39,7 @@ class PlotSGNode;
  * to show their evolution in time.
  * an example can be a plot of the network transfer speed or CPU temperature over time.
  * Multiple plots can be fitted in the same graph, either stacked or intersected.
+ * @deprecated since 5.77, use the KQuickCharts framework instead
  */
 class PlotData : public QObject
 {
